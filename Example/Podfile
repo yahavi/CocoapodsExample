@@ -1,5 +1,7 @@
 use_frameworks!
 
+source 'https://ecosysjfrog.jfrog.io/artifactory/api/pods/cocoapods-remote/index/fetchIndex'
+
 target 'CocoapodsExample_Example' do
   pod 'CocoapodsExample', :path => '../'
 
